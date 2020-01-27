@@ -1,0 +1,49 @@
+{
+  "url" : "https://demo-v2.grip.tools/login",
+  "validEmailsList" : [
+    "email123@domain.com",
+    "email_firstname@domain.com",
+    "firstname_lastname@domain.com",
+    "firstname_123@domain.me",
+    "email@domain.com",
+    "firstname.lastname@domain.com",
+    "email@subdomain.domain.com",
+    "1234567890@domain.com",
+    "email@domain-one.com",
+    "_______@domain.com",
+    "email@domain.name",
+    "email@domain.co.jp",
+    "firstname-lastname@domain.com",
+    "firstname+lastname@domain.com"
+      ],
+
+  "validEmailListWithDomainIp" : [
+    "email@123.123.123.123",
+    "email@[123.123.123.123]"
+  ],
+
+  "doubleQuoteEmail": "\"email\"@domain.com",
+
+  "invalidEmailsList": [
+    "plainAddress",
+    "#@%^%#$@#$@#.com",
+    "@domain.com",
+    "Joe Smith <email@domain.com>",
+    "email.domain.com",
+    "email@domain@domain.com",
+    ".email@domain.com",
+    "email.@domain.com",
+    "email..email@domain.com",
+    "email@domain.com (John Doe)",
+    "email@domain",
+    "email@-domain.com",
+    "email@111.222.333.44444",
+    "email@domain..com"
+  ],
+  "emailWithForeignLanguage" : "あいうえお@domain.com",
+
+  "userPassword" : "123456789",
+  "largePassword": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "XssAlertScript": "<script>alert(\"also known as cross site scripting\")</script>",
+  "sqlInjectionText" : "SELECT * FROM users WHERE name='tom' and password='' or '1'='1'"
+}

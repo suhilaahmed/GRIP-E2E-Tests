@@ -1,0 +1,20 @@
+{
+  "loginPage" : {
+    "emailTextField" : "//*[@data-test-component='materialInput__value']",
+    "nextButton": "//*[@data-test-component='button__label text text--type-system' and text() = 'Next']",
+    "passwordTextField" : "//*[@data-test-component='materialInput__value' and @type = 'password']",
+    "loginButton" : "//*[@data-test-component='button__label text text--type-system' and text()= 'Log in']",
+    "forgotYourPasswordLabel": "//*[@data-test-component='textLink__text text text--type-heading5' and text()= 'Forgot your password?']",
+    "errorMessageLabel" : "(//*[@data-test-component='errorMessage__text text text--type-system3'])[2]",
+    "disabledLoginButton": "//button[@data-test-component='loginPage__loginButton button button--disabled button--type-primary button--shape-basic']",
+    "invalidEmailErrorMessage": "//div[@data-test-component='errorMessage__text text text--type-system3']",
+    "disabledNextButton": "//*[@data-test-component='loginPage__nextButton button button--disabled button--type-primary button--shape-basic']",
+    "sendLinkButton": "//*[@data-test-component = 'button__label text text--type-system' and text() = 'Send the link']",
+    "disabledSendLinkButton": "//*[@data-test-component = 'passwordRecoveryPage__sendButton button button--disabled button--type-primary button--shape-basic']",
+    "backToLoginArrow": "//*[@data-test-component = 'passwordRecoveryPage__goBack textLink link']",
+    "forgotPasswordSuccessMessage" : "(//*[@data-test-component = 'text text--type-plain'])[1]",
+    "signUpButton" : "//*[@data-test-component = 'button__label text text--type-system' and text() = 'Sign up']",
+    "requestDemoTitle": "//*[@class = 'request-demo__title']"
+  }
+
+}

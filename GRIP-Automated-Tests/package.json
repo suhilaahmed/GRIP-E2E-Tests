@@ -1,0 +1,28 @@
+{
+  "name": "testcafe",
+  "version": "0.0.1",
+  "description": "An example end to end test with Testcafe",
+  "author": "suhila-ahmed",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js.cmd",
+    "test-chrome-with-report": "testcafe chrome login-tests.js --reporter html:../reports/report.html --assertion-timeout 20000",
+    "test-safari-with-report" : "testcafe safari login-tests.js --reporter html:../reports/report.html --assertion-timeout 20000",
+    "test-firefox-with-report": "testcafe Firefox login-tests.js --reporter html:../reports/report.html --assertion-timeout 20000"
+  },
+  "dependencies": {
+    "chrome-launcher": "^0.10.5",
+    "cucumber": "2.0.0-rc.9",
+    "lighthouse": "^4.2.0",
+    "node-rest-client": "^3.1.0",
+    "puppeteer": "^1.14.0",
+    "testcafe": "^0.20.3",
+    "testcafe-reporter-cucumber-json": "^3.0.1",
+    "testcafe-reporter-html": "^1.4.4",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@applitools/eyes.cypress": "^3.2.14",
+    "eyes.images": "0.0.53",
+    "multiple-cucumber-html-reporter": "^1.13.1"
+  }
+}
