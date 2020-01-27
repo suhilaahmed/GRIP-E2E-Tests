@@ -10,7 +10,13 @@ npm install -g testcafe
 
 ## Running the tests
 After cloning the framework you will need to run the following steps
+### Navigate to GRIP-Automated-Tests
+```
+cd GRIP-Automated-Tests/
+```
+
 ### Install node modules
+In the Project terminal write:
 ```
 npm install
 ```
